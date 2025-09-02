@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOAHY Guest House</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="icon" href="../public/kgh-logo.png">
+    <link rel="stylesheet" href="scrollbar.css">
+</head>
+
+<body class="relative h-screen bg-[url('../public/beach.jpg')] bg-cover bg-left bg-fixed">
+    <!-- Overlay -->
+    <div class="inset-0 bg-black/40 lg:bg-black/20 fixed"></div>
+
+    <div class="text-white relative h-full z-10 md:grid grid-cols-2 justify-between">
+
+        <!-- Navbar -->
+        <div
+            class="backdrop-blur fixed top-0 text-xl w-full pt-3 flex sm:text-xl lg:text-2xl justify-center gap-5 sm:gap-15 lg:gap-20 col-span-2 items-baseline">
+            <a href="./index.html"
+                class="border-b-2 sm:border-b-4 border-white sm:hover:bg-gray-50/30 transition-colors duration-300 sm:p-3">Accueil</a>
+            <a href="./hotel.html"
+                class="sm:hover:border-white sm:hover:bg-gray-50/30 border-b-4 border-transparent transition-colors duration-300 sm:p-3">Hôtel</a>
+            <a href="./resto.html"
+                class="sm:hover:border-white sm:hover:bg-gray-50/30 border-b-4 border-transparent transition-colors duration-300 sm:p-3">Restaurant</a>
+            <a href="./about.html"
+                class="sm:hover:border-white sm:hover:bg-gray-50/30 border-b-4 border-transparent transition-colors duration-300 sm:p-3">À
+                propos</a>
+        </div>
+
+        <div class="flex flex-col justify-start md:mt-auto lg:mb-15 col-span-1">
+            <img src="../public/kgh-nobg.png" alt="KGH" class="sm:mt-20 lg:mb-30 lg:my-0 pt-36">
+        </div>
+        <div class="lg:pt-52 font-roboto col-span-1 text-4xl lg:text-6xl">
+            <div class="font-cinzel hidden lg:flex flex-col justify-center items-center">Ambiance. <br> Paix.
+                <br> Vacances.
+                <div class="mt-30 text-xl lg:text-4xl font-cinzel flex flex-col justify-center items-center">
+                    Réservez dès maintenant !
+                    <div class="bg-white p-0.5 mt-2 mb-5 w-full"></div>
+                    <div class="lg:text-3xl text-center">
+                        Profitez d'un séjour inoubliable au bord de la mer, dans un cadre
+                        luxueux et paisible.
+                    </div>
+                    <div class="font-serif mt-15">
+                        <a href="./booking.html" class="text-3xl"><button
+                                class="bg-emerald-500 hover:bg-blue-400 transition-colors duration-300 p-4 rounded-4xl  ">Prendre
+                                une réservation</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Responsive -->
+            <div
+                class="lg:hidden mt-5 text-lg sm:text-xl lg:text-4xl font-cinzel flex flex-col justify-center items-center">
+                <span class="font-bold sm:text-3xl">Réservez dès maintenant !</span>
+                <div class="bg-white p-0.5 mt-2 mb-5 w-full"></div>
+                <div class="sm:text-2xl lg:text-3xl text-center">
+                    Profitez d'un séjour inoubliable au bord de la mer, dans un cadre
+                    luxueux et paisible.
+                    <div class="font-normal mt-15">
+                        <a href="./booking.html"><button
+                                class="bg-emerald-500 hover:bg-blue-400 transition-colors duration-300 p-4 rounded-4xl  ">Prendre
+                                une réservation</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

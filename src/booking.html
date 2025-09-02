@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOAHY Guest House</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="icon" href="../public/kgh-logo.png">
+    <link rel="stylesheet" href="scrollbar.css">
+</head>
+
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900 text-white bg-fixed">
+    <div class="flex justify-center">
+        <div class="flex flex-col">
+            <img src="../public/kgh-form.png" alt="KOAHY Guest House"
+                class="lg:h-96 w-auto object-contain lg:-mt-16 sm:-mt-20 -mt-10">
+            <div class="text-center text-xl sm:text-2xl">Réservez votre séjour chez KOAHY Guest House !</div>
+
+            <form action="" class="flex flex-col justify-center items-center">
+                <div class="grid grid-cols-4 gap-5 sm:text-xl mt-7">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" class="bg-white text-black col-span-3"
+                        placeholder="Votre nom..." required>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" class="bg-white text-black col-span-3"
+                        placeholder="example@gmail.com" required>
+
+                    <label for="phone">Téléphone</label>
+                    <input type="text" id="phone" name="phone" class="bg-white text-black col-span-3"
+                        placeholder="Votre numéro..." required>
+
+                    <label for="room">Chambre</label>
+                    <select name="room" id="room" class="col-span-3 bg-white text-black">
+                        <option value="Deluxe">Deluxe</option>
+                        <option value="Bungalow">Bungalow</option>
+                        <option value="Villa">Villa</option>
+                        <option value="Suite Panoramique">Suite Panoramique</option>
+                        <option value="Familiale">Familiale</option>
+                        <option value="Penthouse">Penthouse</option>
+                    </select>
+
+                    <label for="arrival">Arrivée</label>
+                    <input type="date" name="arrival" id="arrival" class="col-span-3 bg-white text-black">
+
+                    <label for="arrival">Départ</label>
+                    <input type="date" name="departure" id="departure" class="col-span-3 bg-white text-black">
+
+                    <label for="message" class="col-span-3">Demandes spéciales (optionnel)</label>
+                    <textarea name="message" id="message"
+                        class="col-span-4 bg-white text-black resize-none overflow-hidden h-20 p-2"
+                        placeholder="Indiquez ici vos demandes..."></textarea>
+                </div>
+                <a href="./index.html"
+                    class="bg-emerald-400 text-2xl p-4 rounded-4xl flex justify-center items-center mt-9 mb-15 sm:pb-5 hover:bg-blue-400 transition-colors duration-300">
+                    Valider
+                </a>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

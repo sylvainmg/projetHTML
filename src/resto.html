@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOAHY Guest House</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="icon" href="../public/kgh-logo.png">
+    <link rel="stylesheet" href="scrollbar.css">
+</head>
+
+<body class="relative h-screen bg-[url('../public/beach.jpg')] bg-cover bg-left bg-fixed">
+    <!-- Overlay -->
+    <div class="inset-0 bg-black/40 lg:bg-black/20 fixed"></div>
+
+    <div class="text-white relative h-full z-10 justify-between">
+
+        <!-- Navbar -->
+        <div
+            class="backdrop-blur text-xl fixed top-0 w-full pt-3 flex sm:text-xl lg:text-2xl justify-center gap-5 sm:gap-15 lg:gap-20 col-span-2 items-baseline">
+            <a href="./index.html"
+                class="sm:hover:border-white sm:hover:bg-gray-50/30 border-b-4 border-transparent transition-colors duration-300 sm:p-3">Accueil</a>
+            <a href="./hotel.html"
+                class="sm:hover:border-white sm:hover:bg-gray-50/30 border-b-4 border-transparent transition-colors duration-300 sm:p-3">Hôtel</a>
+            <a href="./resto.html"
+                class="border-white sm:hover:bg-gray-50/30 border-b-2 sm:border-b-4  transition-colors duration-300 sm:p-3">Restaurant</a>
+            <a href="./about.html"
+                class="sm:hover:border-white sm:hover:bg-gray-50/30 border-b-4 border-transparent transition-colors duration-300 sm:p-3">À
+                propos</a>
+        </div>
+
+        <div class="pt-20 sm:pt-25 md:pt-30 p-">
+            <div class="p-">
+                <h1 class="text-2xl sm:text-4xl font-bold text-center">Fruits de mer</h1>
+                <div class="p-0.5 mt-2 bg-white w-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/crevette.jpg" alt="Crevettes" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Crevettes grillées</h3>
+                        <p class="text-gray-600 mb-3">Servies avec sauce ail et citron.</p>
+                        <span class="text-emerald-500 font-bold text-lg">$28</span>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/calamars.webp" alt="Calamars" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Calamars frits</h3>
+                        <p class="text-gray-600 mb-3">Accompagnés d'une sauce tartare maison.</p>
+                        <span class="text-emerald-500 font-bold text-lg">$24</span>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/poisson.jpg" alt="Poisson" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Poisson du jour</h3>
+                        <p class="text-gray-600 mb-3">Grillé, servi avec légumes sautés.</p>
+                        <span class="text-emerald-500 font-bold text-lg">$36</span>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/moule.jpg" alt="Moule" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Moule à la marinière</h3>
+                        <p class="text-gray-600 mb-3">Cuites au vin blanc et persil.</p>
+                        <span class="text-emerald-500 font-bold text-lg">$42</span>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/brochette.jpg" alt="Brochette" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Brochettes de fruits de mer</h3>
+                        <p class="text-gray-600 mb-3">Mélange crevettes, calamars et poisson.</p>
+                        <span class="text-emerald-500 font-bold text-lg">$45</span>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/langouste.jpg" alt="Langouste" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Langouste grillées</h3>
+                        <p class="text-gray-600 mb-3">Beurre citronné, accompagnement au choix.</p>
+                        <span class="text-emerald-500 font-bold text-lg">$95</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="pt-7 sm:pt-12 md:pt-16 p-">
+            <div class="p-">
+                <h1 class="text-2xl sm:text-4xl font-bold text-center">Crudités</h1>
+                <div class="p-0.5 mt-2 bg-white w-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/carpaccio.webp" alt="Carpaccio" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Carpaccio de légumes</h3>
+                        <p class="text-gray-600 mb-3">Fines lamelles de courgettes épicées, assaisonnées de
+                            vinaigrette.</p>
+                        <span class="text-emerald-500 font-bold text-lg">$28</span>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/salade.jpg" alt="Calamars" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Salade niçoise</h3>
+                        <p class="text-gray-600 mb-3">Accompagnée d'œufs, de mangues et d'une sauce
+                            locale de Mangily.</p>
+                        <span class="text-emerald-500 font-bold text-lg">$32</span>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/burrata.jpeg" alt="Burrata" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Burrata crémeuse</h3>
+                        <p class="text-gray-600 mb-3">Huile d'olive premium, basilic frais.</p>
+                        <span class="text-emerald-500 font-bold text-lg">$36</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="pt-7 sm:pt-12 md:pt-16 p-">
+            <div class="p-">
+                <h1 class="text-2xl sm:text-4xl font-bold text-center">Fast Food</h1>
+                <div class="p-0.5 mt-2 bg-white w-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/burger.jpg" alt="Burger" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Chicken burger</h3>
+                        <p class="text-gray-600 mb-3">Poulet élevé localement, sauce du chef.</p>
+                        <span class="text-emerald-500 font-bold text-lg">$12</span>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/pizza.jpg" alt="Pizza" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Pizza au fruit de mer</h3>
+                        <p class="text-gray-600 mb-3">Cuite au feu de bois, fruit de mer frais.</p>
+                        <span class="text-emerald-500 font-bold text-lg">$20</span>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/hotdog.jpg" alt="Hot-dog" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Hot-dog de homard</h3>
+                        <p class="text-gray-600 mb-3">Pain artisanal, chair de homard au beurre citronné, sauce légère.
+                        </p>
+                        <span class="text-emerald-500 font-bold text-lg">$58</span>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/tacos.jpg" alt="Tacos" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Tacos au fruit de mer</h3>
+                        <p class="text-gray-600 mb-3">French tacos, fruit de mer frais, salade, mayonnaise et ketchup.
+                        </p>
+                        <span class="text-emerald-500 font-bold text-lg">$58</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="pt-7 sm:pt-12 md:pt-16 p-">
+            <div class="p-">
+                <h1 class="text-2xl sm:text-4xl font-bold text-center">Desserts</h1>
+                <div class="p-0.5 mt-2 bg-white w-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/glace.jpg" alt="Glace" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Glace</h3>
+                        <p class="text-gray-600 mb-3">À l'italienne, parfum au choix.</p>
+                        <span class="text-emerald-500 font-bold text-lg">$10</span>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/fruits.webp" alt="Fruits" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Salade de fruits</h3>
+                        <p class="text-gray-600 mb-3">Fruits frais et bien juteux.</p>
+                        <span class="text-emerald-500 font-bold text-lg">$27</span>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/chocolat.jpg" alt="Chocolat" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Soufflé au chocolat</h3>
+                        <p class="text-gray-600 mb-3">Léger, fondant, crème douce.
+                        </p>
+                        <span class="text-emerald-500 font-bold text-lg">$30</span>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/tartelette.avif" alt="Tartelette" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Tartelette au fruits</h3>
+                        <p class="text-gray-600 mb-3">Crème acidulée, meringue italienne dorée.
+                        </p>
+                        <span class="text-emerald-500 font-bold text-lg">$34</span>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black rounded-xl shadow-lg overflow-hidden">
+                    <img src="../public/pancakes.avif" alt="Pancakes" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Pancakes</h3>
+                        <p class="text-gray-600 mb-3">Moelleux, servis chauds avec du sirop d'érable et une touche de
+                            beurre.
+                        </p>
+                        <span class="text-emerald-500 font-bold text-lg">$22</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
